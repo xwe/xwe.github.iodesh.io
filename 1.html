@@ -1,25 +1,46 @@
 <style>  #b {      vertical-align: top;
     position: relative;
     display: inline-block;
-    width: 144px;
+    width: 150px;
     height: 33px;
     background-image: url(https://www.noproblemsite.ru/images/sozdanie-internet-magazina/yandex-market/logo-ym.png);
     background-repeat: no-repeat;
     background-position: 0 0;
-    background-size: 145px;
+    background-size: 150px;
     border: 0;
     background-color: transparent;}
+	
+	#inp {position:absolute;
+	}
 	</style>
 
 <div class="b-head-search">
 	<div class="b-head-search__wrap b-head-search__arrow">
-		<i class="b-head-search__arr"><i class="b-head-search__arr-i"></i></i><i class="cart"></i>
-		<form style="margin:0" action="http://market.yandex.ru/search.xml" role="search"><table class="b-search"><tr>
+		<i class="b-head-search__arr">
+			<i class="b-head-search__arr-i">
+			</i>
+		</i>
+		<i class="cart">
+		</i>
+		<form style="margin:0" action="http://market.yandex.ru/search.xml" role="search">
+			<table class="b-search">
+				<tr>
                         
-                    <td class="b-search__input"><span class="b-form-input b-form-input_isBEM_yes b-form-input_size_16 i-bem" onclick="return {'b-form-input':{name:'b-form-input'}}">
-                                <span class="b-form-input__box"><input class="b-form-input__input" id="search-input" name="text" maxlength="400" tabindex="1"></span>
-                            </span></td><td class="b-search__button">
-                            <span onclick="return {'b-form-button':{name:'b-form-button'}}" class="b-form-button b-form-button_theme_grey-no-transparent-26 b-form-button_height_26 i-bem" role="button"><i class="b-form-button__left"></i><span class="b-form-button__content">
-                                    <span class="b-form-button__text"></span>
-                                </span><input id="b" hidefocus="true" type="submit" value="" class="b-form-button__input" tabindex="2"></span>
+                    <td class="b-search__input">
+			    <span class="b-form-input b-form-input_isBEM_yes b-form-input_size_16 i-bem" onclick="return {'b-form-input':{name:'b-form-input'}}">
+                                <span class="b-form-input__box">
+					<input id='inp' class="b-form-input__input" id="search-input" name="text" maxlength="400" tabindex="1">
+			    </span>
+                            </span>
+					</td>
+					<td class="b-search__button">
+                            <span onclick="return {'b-form-button':{name:'b-form-button'}}" class="b-form-button b-form-button_theme_grey-no-transparent-26 b-form-button_height_26 i-bem" role="button">
+				    <i class="b-form-button__left">
+				    </i>
+				    <span class="b-form-button__content">
+                                    <span class="b-form-button__text">
+				    </span>
+                                </span>
+				    <input id="b" hidefocus="true" type="submit" value="" class="b-form-button__input" tabindex="2">
+					</span>
                      
