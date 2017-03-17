@@ -9,7 +9,15 @@
 	body{background:url('https://xwe.github.io/img/12.png');
 	background-size: 280px;}
 	
-
+footer.footer {
+    background: white;
+    z-index: 1111111;
+    width: 95%;
+    position: absolute;
+    height: 60px;
+    bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
 	
 	
 	#inp {
@@ -65,7 +73,8 @@
 }}
 	
 	</style>
-<div class="headline_theme_banner"></div>
+<body>
+	<div class="headline_theme_banner"></div>
 <div class="b-head-search">
 	<div class="b-head-search__wrap b-head-search__arrow">
 		<i class="b-head-search__arr">
@@ -76,12 +85,12 @@
 		</i>
 		<form style="margin:0" action="http://market.yandex.ru/search.xml" role="search" target="_blank">
 			<table class="b-search">
-				<tr>
+				<tbody><tr>
                         
                     <td class="b-search__input">
 			    <span class="b-form-input b-form-input_isBEM_yes b-form-input_size_16 i-bem" onclick="return {'b-form-input':{name:'b-form-input'}}">
                                 <span class="b-form-input__box">
-					<input id='inp' class="b-form-input__input" id="search-input" name="text" maxlength="400" tabindex="1" placeholder="найти на" target="_blank">
+					<input id="inp" class="b-form-input__input" name="text" maxlength="400" tabindex="1" placeholder="найти на" target="_blank">
 			    </span>
                             </span>
 					</td>
@@ -95,11 +104,14 @@
                                 </span>
 				    <input id="b" hidefocus="true" type="submit" value="" class="b-form-button__input" tabindex="2">
 					</span>
-						
-						
-						<footer class="footer">
+					</td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+	</div>
+	</div>
+	<footer class="footer">
 						
 						</footer>
-						
-						
-	
+		</body>
