@@ -2,6 +2,7 @@
     max-width: 980px;
     margin: auto;
     top: -10px;
+		-webkit-transition: all 2.35s ease-in; 
 }
 	
 	
