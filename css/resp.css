@@ -1,4 +1,5 @@
-	.w3-content {
+.w3-display-container mySlides{-webkit-transition: all 2.35s ease-in;}
+.w3-content {
     max-width: 980px;
     margin: auto;
     top: -10px;
