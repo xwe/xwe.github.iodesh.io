@@ -49,6 +49,7 @@ footer.footer {
     border-bottom: 2px solid #fd5;
 		background:rgba(255, 204, 0, 0.78);
 		 border-radius: 10px 10px 10px 10px;
+		-webkit-transition: all 2.35s ease-in;
 }
 	
 		
