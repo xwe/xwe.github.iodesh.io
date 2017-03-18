@@ -6,7 +6,7 @@ h1 {
 
 h1 span {
   position: relative;
-  top: 20px;
+  top: 0px;
   display: inline-block;
   -webkit-animation: bounce .3s ease infinite alternate;
           animation: bounce .3s ease infinite alternate;
