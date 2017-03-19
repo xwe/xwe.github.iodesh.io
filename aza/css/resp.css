@@ -1,31 +1,4 @@
-.w3-display-container mySlides{-webkit-transition: all 2.35s ease-in;}
-.w3-content {
-    max-width: 980px;
-    margin: auto;
-    top: -10px;
-		-webkit-transition: all 2.35s ease-in; 
-}
-	
-	body{background:url('https://xwe.github.io/img/12.png');
-	background-size: 280px;}
-	
-footer.footer {
-    background: white;
-    z-index: 1111111;
-    width: 100%;
-    position: absolute;
-    height: 60px;
-    bottom: 0px;
-    border-radius: 10px 10px 0px 0px;
-}
-	
-	
-	.w3-black, .w3-hover-black:hover{
-	color: #fff!important;
-    background-color: rgba(255, 193, 7, 0)!important;
-    border-radius: 100%;
-	}
-	
+
 	#inp {
     /*position: absolute;*/
     padding: 10px;
@@ -41,15 +14,7 @@ footer.footer {
     border: 0px solid #fc0;
 }
 	
-	.headline_theme_banner {
-    min-height: 250px;
-    /*margin: -33px 0 35px;*/
-    padding: 0%;
-    border-bottom: 2px solid #fd5;
-		background:rgba(255, 204, 0, 0.78);
-		 border-radius: 10px 10px 10px 10px;
-		-webkit-transition: all 2.35s ease-in;
-}
+
 	
 		
 	#b {
@@ -142,7 +107,7 @@ iPad 3
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) {
 /* Styles */
-	h1 {
+/*	h1 {
   height: 100px;
   font-size: 30px;
   padding: 55px;
@@ -168,7 +133,7 @@ h1 span {
                0 8px 0 transparent,
                0 9px 0 transparent,
                0 10px 10px rgba(0, 0, 0, .4);
-}
+}*/
 	
 	
 }
@@ -176,7 +141,7 @@ h1 span {
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait){
 /* Styles */
 	
-		h1 {
+		/*h1 {
   height: 100px;
   font-size: 30px;
   padding: 55px;
@@ -202,7 +167,7 @@ h1 span {
                0 8px 0 transparent,
                0 9px 0 transparent,
                0 10px 10px rgba(0, 0, 0, .4);
-}
+}*/
 	
 	
 	
