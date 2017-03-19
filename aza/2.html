@@ -78,7 +78,30 @@ animation-delay: 0.5s;
 animation-iteration-count: 1;
 animation-name: fadeInUp;
 text-align: center;
-"><h1 class="wow rubberBand"  data-wow-delay="1.7s" data-wow-iteration="1">- {./.} -</h1></div>
+"><div id="chatra-wrapper"  style="border-radius:30px;height:300px;
+	min-height: 300px;
+	width:100%;
+	"  class="wow rubberBand"  data-wow-delay="1.7s" data-wow-iteration="1"><script>window.ChatraSetup = {
+    mode: 'frame',
+    injectTo: 'chatra-wrapper' 
+};
+    ChatraID = '6MM4twpMmLJfqR4ar';
+    (function(d, w, c) {
+        var n = d.getElementsByTagName('script')[0],
+            s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = (d.location.protocol === 'https:' ? 'https:': 'http:')
+            + '//call.chatra.io/chatra.js';
+        n.parentNode.insertBefore(s, n);
+    })(document, window, 'Chatra');
+	
+	   Chatra('setColors', {
+    chatBg: 'transparent' // фон
+});</script>
+</h1></div>
   
   
   
