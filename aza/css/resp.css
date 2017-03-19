@@ -1,4 +1,15 @@
 
+#r {
+ position: absolute;
+        top: 80px;
+    left: 62%;
+    color:red;
+    z-index: 1;
+    font-weight: 900;
+
+}
+
+
 	#inp {
     /*position: absolute;*/
     padding: 10px;
@@ -140,6 +151,8 @@ h1 span {
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait){
 /* Styles */
+	
+	#r{left:85%;}
 	
 		/*h1 {
   height: 100px;
