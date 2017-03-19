@@ -1,0 +1,267 @@
+.w3-display-container mySlides{-webkit-transition: all 2.35s ease-in;}
+.w3-content {
+    max-width: 980px;
+    margin: auto;
+    top: -10px;
+		-webkit-transition: all 2.35s ease-in; 
+}
+	
+	body{background:url('https://xwe.github.io/img/12.png');
+	background-size: 280px;}
+	
+footer.footer {
+    background: white;
+    z-index: 1111111;
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+	
+	
+	.w3-black, .w3-hover-black:hover{
+	color: #fff!important;
+    background-color: rgba(255, 193, 7, 0)!important;
+    border-radius: 100%;
+	}
+	
+	#inp {
+    /*position: absolute;*/
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+    top: 50px;
+	}
+	
+	input#inp:focus {
+    outline: 0px #4CAF50;
+    border-radius: 10px 10px 10px 10px;
+    border: 0px solid #fc0;
+}
+	
+	.headline_theme_banner {
+    min-height: 250px;
+    /*margin: -33px 0 35px;*/
+    padding: 0%;
+    border-bottom: 2px solid #fd5;
+		background:rgba(255, 204, 0, 0.78);
+		 border-radius: 10px 10px 10px 10px;
+		-webkit-transition: all 2.35s ease-in;
+}
+	
+		
+	#b {
+       vertical-align: top;
+    position: relative;
+    display: inline-block;
+        width: 125px;
+    height: 35px;
+    background-image: url('data:image/png;base64,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');
+    background-repeat: no-repeat;
+   background-position: 8px 8px;
+    background-size: 89%;
+    background-color: rgba(255, 204, 0, 0.74);
+        border-radius: 10px 10px 10px 10px;
+    /*padding: 20px 20px 20px 20px;*/
+    border: 0;
+}
+	#b:focus {
+    outline: 0;
+    border: 2.95px solid #fc0;
+}
+	
+@media (-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
+    #b {
+        background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAxNDQgMjgiPjxnIGZpbGw9Im5vbmUiPjxwYXRoIGZpbGw9IiNmMDAiIGQ9Ik05LjM1MiAxNC4zMTR2OC42ODZoMi40NDF2LTIyLjY2NmgtMy42NDZjLTMuNTgyIDAtNi41OTQgMi4zNzgtNi41OTQgNy4xMzMgMCAzLjM5MiAxLjMzMSA1LjIzMSAzLjMyOSA2LjI0NWwtNC4yNDggOS4yODhoMi44MjFsMy44NjctOC42ODZoMi4wMjl6bTAtMi4wMjloLTEuM2MtMi4xMjQgMC0zLjg2Ny0xLjE3My0zLjg2Ny00LjgxOCAwLTMuNzcyIDEuOTAyLTUuMDcyIDMuODY3LTUuMDcyaDEuM3Y5Ljg5eiIvPjxnIGZpbGw9IiMwMDAiPjxwYXRoIGQ9Ik0zNi4yNjUgMjAuOTcxaC0xLjI2OHYtMTMuOTQ4aC03LjQxOHYxLjM2M2MwIDQuMjQ4LS4xNTkgOS4xOTMtMS42MTcgMTIuNTg1aC0uOTgzdjUuMTY3aDIuMjE5di0zLjEzOGg2Ljg0N3YzLjEzOGgyLjIxOXYtNS4xNjd6bS0zLjcwOSAwaC00LjI0OGMxLjMzMS0zLjM5MiAxLjQ5LTguMzA1IDEuNDktMTEuNjY2di0uMjg1aDIuNzU4djExLjk1MXptMTQuNDU1Ljk1MWwtLjU3MS0xLjkwMmMtLjYzNC40NDQtMS43NDMgMS4wNzgtMy4xMzggMS4wNzgtMS45NjUgMC0yLjk4LTEuOTAyLTIuOTgtNS41MTZoNi42NTd2LTEuMzYzYzAtNS40MjEtMS43NDMtNy40MTgtNC40MDYtNy40MTgtMy4zOTIgMC00LjgxOCAzLjc0MS00LjgxOCA4Ljg3NiAwIDQuOTE0IDIuMDI5IDcuNTQ1IDUuMzI2IDcuNTQ1IDEuNTg1IDAgMi45MTYtLjUwNyAzLjkzMS0xLjN6bS00LjQzOC0xMy4wOTJjMS40MjcgMCAxLjg3IDEuOTk3IDEuODcgNC43MjNoLTQuMDg5Yy4xNTktMi44NTMuNjk3LTQuNzIzIDIuMjE5LTQuNzIzek0yMS4xMTIgNy4wMjN2Ni43ODRoLTMuNjc3di02Ljc4NGgtMi40NzN2MTUuOTc3aDIuNDczdi03LjE2NGgzLjY3N3Y3LjE2NGgyLjQ0MXYtMTUuOTc3ek01Ni4yMDQgMjNoMi42OTVsLTQuNTMzLTguNDY0IDMuOTYyLTcuNTEzaC0yLjUwNGwtMy44MzYgNy4zODZ2LTcuMzg2aC0yLjQ3M3YxNS45NzdoMi40NzN2LTcuOTU3ek02NC43IDIzLjIyMmMxLjQ1OCAwIDIuNDczLS40NzYgMy4zMjktMS4yMDVsLS41NzEtMS44MzljLS41NzEuNTA3LTEuNDkuOTgzLTIuNjk0Ljk4My0xLjk5NyAwLTIuOTQ4LTIuMjgyLTIuOTQ4LTYuMjc3IDAtNC4wMjYgMS4yNjgtNi4wMjMgMy4wNDMtNi4wMjMgMS4wMTQgMCAxLjk2NS41MzkgMi42MzEgMS4xMWwuMzQ5LTIuMzQ2Yy0uNjk3LS40NDQtMS41MjItLjgyNC0yLjk0OC0uODI0LTMuNzQxIDAtNS42NzQgMy4yMDItNS42NzQgOC4yMSAwIDUuNDUyIDIuMDYxIDguMjEgNS40ODQgOC4yMXptMTIuMzk1LTIwLjM1MWguMDk1Yy4xNTggMS41NTMuNDEyIDIuODIxLjcyOSA0LjA1OGwzLjEzOCAxMi41MjJoMS4yMzZsMy4xNy0xMi41MjJjLjM0OS0xLjMzMS41NzEtMi42NjMuNzYxLTQuMDg5aC4wOTVjMCAxLjM5NS0uMDMyIDIuNzU4LjA2MyA0LjUzM2wuNjY2IDE1LjYyOGgxLjUyMmwtLjk4My0yMi42NjZoLTEuNzc1bC0zLjQ4NyAxMy45OGMtLjI4NSAxLjEwOS0uNDc1IDIuMTg3LS41NzEgMy4xMzhoLS4wNjNjLS4wOTUtLjk1MS0uMjU0LTIuMDI5LS41MzktMy4xMzhsLTMuMzkyLTEzLjk4aC0xLjc0NGwtLjk4MyAyMi42NjZoMS4zbC42NjYtMTUuNTAxYy4wNjMtMS41NTMuMDk1LTMuMzkyLjA5NS00LjYyOHptMjEuNDYxIDIwLjEzaDEuMzYzYy0uMTktLjYwMi0uMzQ5LTEuODM5LS4zNDktMi45NDh2LTguNzE4YzAtMy4xNy0xLjQ5LTQuNjI4LTQuMTIxLTQuNjI4LTEuODA3IDAtMy4xMzguNzkzLTMuNzcyIDEuNjE3bC40MTIgMS40MjdjLjc2MS0xLjExIDEuOTk3LTEuNzQ0IDMuMzYtMS43NDQgMS43NDQgMCAyLjY2MyAxLjA0NiAyLjY2MyAzLjQ4N3YxLjk5N2gtMS43NDRjLTMuNDU1IDAtNS4zMjYgMS43NzUtNS4zMjYgNS4xOTkgMCAyLjkxNiAxLjQ5IDQuNjI4IDMuNjQ2IDQuNjI4IDEuNTg1IDAgMi43MjYtLjk1MSAzLjQ4Ny0yLjQ3My4wOTUgMS4xNDEuMjU0IDEuNzQ0LjM4IDIuMTU2em0tMy41NS0uODg4Yy0xLjUyMiAwLTIuNTA0LTEuMy0yLjUwNC0zLjU1IDAtMi43OSAxLjI2OC0zLjk5NCAzLjg5OS0zLjk5NGgxLjcxMnY0LjQwNmMtLjU3MSAxLjcxMi0xLjYxNyAzLjEzOC0zLjEwNyAzLjEzOHptMTIuMzMxIDEuMTczYzIuOTggMCA0Ljk0NS0yLjg4NSA0Ljk0NS04Ljc0OSAwLTQuNjI4LTEuNTUzLTcuODMtNC4yMTYtNy44My0xLjc3NSAwLTIuOTQ4IDEuNDI3LTMuNjQ2IDIuOTQ4bC0uMTI3LTIuNjMxaC0xLjN2MjAuOTIyaDEuNDl2LTYuMDU1Yy42MDIuNzkzIDEuNjQ4IDEuMzk1IDIuODUzIDEuMzk1em0uMDk1LTEuMTczYy0xLjQyNiAwLTIuMzE0LS42MzQtMi45NDgtMS45MzR2LTguOTM5Yy42OTctMS43MTIgMS45MDItMy4yMzMgMy4zMjktMy4yMzMgMS44MzkgMCAyLjk4IDIuNDczIDIuOTggNi42NTcgMCA1LjA0LTEuMzMxIDcuNDUtMy4zNiA3LjQ1ek0xMTYuNjI0IDE0LjcyNmw1LjU0OCA4LjI3NGgxLjY0OGwtNS42NDItOC41NTkgNS4yNjItNy40MThoLTEuNDU4bC01LjM1OCA3LjUxM3YtNy41MTNoLTEuNDl2MTUuOTc3aDEuNDl6TTEyNS45NDQgMTUuMjY1aDcuMjI4Yy41MDctNS42NzQtMS4yNjgtOC41NTktNC4wMjYtOC41NTktMi42OTUgMC00LjY2IDMuMDc1LTQuNjYgOC4zMDUgMCA1LjIzMSAxLjU1MyA4LjMwNSA0Ljk0NSA4LjMwNSAyLjUzNiAwIDMuNzQxLTEuODA3IDMuNzQxLTEuODA3bC0uNDc1LTEuMjA1cy0xLjEwOSAxLjcxMi0zLjIzMyAxLjcxMmMtMi4zMTQgMC0zLjQ1NS0yLjM3OC0zLjUxOS02Ljc1MnptMy4yMDItNy4zMjNjMS42MTcgMCAyLjg4NSAxLjkwMiAyLjYzMSA2LjE1aC01LjgwMWMuMTI3LTMuOTk0IDEuNDktNi4xNSAzLjE3LTYuMTV6TTE0My40MTEgOC4yNTl2LTEuMjM2aC04Ljg3NnYxLjIzNmgzLjcwOXYxNC43NDFoMS40OXYtMTQuNzQxeiIvPjwvZz48L2c+PC9zdmc+')
+    }
+}}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) {
+/* Styles */
+	h1 {
+  height: 100px;
+  font-size: 30px;
+  padding: 55px;
+}
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  -webkit-animation: bounce .3s ease infinite alternate;
+          animation: bounce .3s ease infinite alternate;
+  font-family: 'Titan One', cursive;
+  font-size: 30px;
+  font-weight: 900;
+  color: #FFF;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4);
+}
+	
+	
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait){
+/* Styles */
+	
+		h1 {
+  height: 100px;
+  font-size: 30px;
+  padding: 55px;
+}
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  -webkit-animation: bounce .3s ease infinite alternate;
+          animation: bounce .3s ease infinite alternate;
+  font-family: 'Titan One', cursive;
+  font-size: 30px!important;
+  font-weight: 900;
+  color: #FFF;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .4);
+}
+	
+	
+	
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+::-webkit-scrollbar {
+    width: 1px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
