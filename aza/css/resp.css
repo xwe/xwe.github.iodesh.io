@@ -191,8 +191,9 @@ h1 span {
 /* Styles */
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) {
 /* Styles */
+	#r{left:85%;}
 }
 
 /* iPhone 6+ ----------- */
@@ -200,8 +201,9 @@ h1 span {
 /* Styles */
 }
 
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and {
 /* Styles */
+	#r{left:85%;}
 }
 
 /* Samsung Galaxy S3 ----------- */
