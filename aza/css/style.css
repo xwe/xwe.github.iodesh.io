@@ -331,7 +331,7 @@ h1 span {
 	
 }
 
-@media only screen and (min-device-height: 545px) {
+@media (min-device-height: 545px) {
 
 #Im {display:none!important;}
 
