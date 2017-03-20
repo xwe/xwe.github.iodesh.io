@@ -153,6 +153,7 @@ h1 span {
 /* Styles */
 	
 	#r{left:85%;}
+	h1 span {font-size: 50px;}
 	
 		/*h1 {
   height: 100px;
@@ -194,6 +195,7 @@ h1 span {
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) {
 /* Styles */
 	#r{left:85%;}
+	h1 span {font-size: 50px;}
 }
 
 /* iPhone 6+ ----------- */
@@ -204,6 +206,7 @@ h1 span {
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and {
 /* Styles */
 	#r{left:85%;}
+	h1 span {font-size: 50px;}
 }
 
 /* Samsung Galaxy S3 ----------- */
