@@ -30,6 +30,12 @@
     font-weight: 900;
     text-decoration: line-through;
 }
+#im {
+    width: 205px;
+    position: absolute;
+    top: 28px;
+    padding: 10px;
+}
 
 html, body {
   width: 100%;  
