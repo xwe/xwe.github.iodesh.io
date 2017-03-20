@@ -2,7 +2,7 @@
     position: absolute;
     font-size: 15px;
     top: 37px;
-    left: 77%;
+    left: 59%;
     color: #fc0;
     z-index: 1;
     font-weight: 900;
@@ -15,7 +15,7 @@
  position: absolute;
  font-size: 22px;
  top: 61px;
- left: 74%;
+ left: 58%;
  color: #fff;
  z-index: 1;
  font-weight: 900;
@@ -23,9 +23,9 @@
 #price2 {
     position: absolute;
     top: 86px;
-    left: 80%;
+    left: 58.5%;
     font-size: 16px;
-    color: #fff;
+    color: red;
     z-index: 1;
     font-weight: 900;
     text-decoration: line-through;
